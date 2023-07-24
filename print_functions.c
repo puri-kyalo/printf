@@ -162,7 +162,7 @@ UNUSED(precision);
 UNUSED(size);
 
 a = va_arg(types, unsigned int);
-m = 2147483648;
+m = 2147483648; /* (2 ^ 31) */
 b[0] = a / m;
 for (x = 1; x < 32; x++)
 {
