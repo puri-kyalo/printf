@@ -2,7 +2,7 @@
 
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
- * print_unsigned - function that prints an unsigned number
+ * print_unsigned - write a function that prints an unsigned number
  * @types: The list a of arguments
  * @buffer: Is the buffer array to handle print
  * @flags: this calculates active flags
@@ -34,7 +34,7 @@ return (write_unsgnd(0, x, buffer, flags, width, precision, size));
 
 /************* PRINT UNSIGNED NUMBER IN OCTAL  ****************/
 /**
- * print_octal - function that prints an unsigned number in octal notation
+ * print_octal - write a function that prints an unsigned number in octal notation
  * @types: The lista of arguments
  * @buffer: the buffer array to handle print
  * @flags: this calculates active flags
