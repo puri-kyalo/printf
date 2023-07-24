@@ -13,7 +13,7 @@
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
-{ /* char is stored at left and paddind at buffer's right */
+{
 int x = 0;
 char padd = ' ';
 UNUSED(precision);
@@ -141,7 +141,6 @@ int write_unsgnd(int is_negative, int ind,
 	char buffer[],
 	int flags, int width, int precision, int size)
 {
-/* The number is stored at the bufer's right and starts at position i */
 int length = BUFF_SIZE - ind - 1, x = 0;
 char padd = ' ';
 
