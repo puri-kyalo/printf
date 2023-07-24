@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * is_printable - function that evaluates if a char is printable
+ * is_printable - write a function that evaluates if a char is printable
  * @c: Character to be evaluated
  * Return: 1 if c is printable, otherwise 0
  */
 int is_printable(char c)
 {
-if (c >= 32 && c < 127)
+if (c >= 32 && c < 127) /* return 1 else 0 */
 return (1);
 
 return (0);
 }
 
 /**
- * append_hexa_code - function that append ascci in hexadecimal code to buffer
+ * append_hexa_code - write a function that append ascci in hexadecimal code to buffer
  * @buffer: the array of characters
  * @i: is the index at which to start appending.
  * @ascii_code: ASSCI CODE
@@ -36,7 +36,7 @@ return (3);
 }
 
 /**
- * is_digit - function that verifies if a char is a digit
+ * is_digit - write a function that verifies if a char is a digit
  * @c: Character to be evaluated
  * Return: 1 if c is a digit, otherwise 0
  */
@@ -48,7 +48,7 @@ return (0);
 }
 
 /**
- * convert_size_number - function that casts a number to the specified size
+ * convert_size_number - write a function that casts a number to the specified size
  * @num: is the number to be casted
  * @size: The number indicating the type to be casted
  * Return: Casted value of num
