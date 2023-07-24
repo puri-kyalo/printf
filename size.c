@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * get_size - function that calculates the size to cast the argument
+ * get_size - write a function that calculates the size to cast the argument
  * @format: the formatted string in which to print the arguments
  * @i: is the list of arguments to be printed
  * Return: Precision
@@ -19,5 +19,5 @@ if (size == 0)
 *i = curr_i - 1;
 else
 *i = curr_i;
-return (size);
+return (size); /* return size */
 }
