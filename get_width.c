@@ -31,4 +31,5 @@ break;
 
 *i = curr_i - 1;
 return (width);
+  /*This function gets the width for the paramters provided*/
 }
